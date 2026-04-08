@@ -1,0 +1,17 @@
+package org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        String names = "World";
+        if (args.length > 0) {
+            names = String.join(", ",args);
+        }
+        System.out.println("Hello " + names + '!');
+    }
+}
